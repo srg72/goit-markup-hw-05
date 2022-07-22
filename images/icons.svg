@@ -87,5 +87,14 @@
       <path
         d="M17 0H3a3 3 0 0 0-3 3v26a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3zM3 2h14a1 1 0 0 1 1 1v21H2V3a1 1 0 0 1 1-1zm14 28H3a1 1 0 0 1-1-1v-3h16v3a1 1 0 0 1-1 1z" />
     </symbol>
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"
+      xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <symbol id="close-black" viewBox="0 0 32 32">
+          <path
+            d="M26.67 7.3 24.7 5.33l-7.81 7.81-7.8-7.8L7.1 7.3l7.8 7.81-7.8 7.8 1.97 1.98 7.8-7.8 7.82 7.8 1.97-1.97-7.81-7.8 7.8-7.82z" />
+        </symbol>
+      </defs>
+    </svg>
   </defs>
 </svg>
