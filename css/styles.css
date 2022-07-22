@@ -813,7 +813,7 @@ p {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .modal {
-  position: absolute;
+  position: relative;
   width: 528px;
   height: 581px;
   top: 221px;
@@ -840,6 +840,10 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
   cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+  transition: opasity 250ms ease-out, visibility 250ms ease-out;
 }
 
 .backdrop.is-hidden {
