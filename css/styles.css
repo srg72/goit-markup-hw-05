@@ -20,6 +20,7 @@
   /* card-image  */
   --card-image-gap: 30px;
   --anim-fast: 250ms ease-in-out;
+  --overlay: rgba(33, 150, 243, 0.9);
 }
 
 /* bases styels */
@@ -684,7 +685,7 @@ p {
 .overlay-project {
   position: relative;
   overflow: hidden;
-  transition: box-shadow var(--anim-fast) cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow var(--anim-fast);
 }
 
 .overlay {
@@ -702,7 +703,7 @@ p {
   height: 100%;
   padding: 63px 24px;
 
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: var(--overlay);
   backdrop-filter: blur(3px);
 
   transition: transform 500ms ease-in-out;
@@ -711,10 +712,16 @@ p {
   transform: translateY(0);
 }
 .overlay-text {
+  width: 322px;
+  height: 168px;
+  left: 239px;
+  top: 325px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.55px;
+  line-height: 28px;
+
   letter-spacing: 0.03em;
 
   color: var(--light-text);
