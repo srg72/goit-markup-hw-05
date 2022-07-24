@@ -607,10 +607,6 @@ p {
   background-color: var(--accent);
 }
 
-/* .click-link-current::after {
-  background-color: var(--accent);
-} */
-
 .list-image {
   display: flex;
   flex-wrap: wrap;
