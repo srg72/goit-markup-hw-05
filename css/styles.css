@@ -268,8 +268,6 @@ p {
 /* button portfolio */
 
 .button {
-  display: flex;
-
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -604,15 +602,14 @@ p {
 .main-item {
   margin-left: 8px;
 }
-/* .click {
-  color: var(--accent);
-} */
-.click-link-current {
-  color: var(--accent);
-}
-.click-link-current::after {
+.click {
+  color: var(--light-text);
   background-color: var(--accent);
 }
+
+/* .click-link-current::after {
+  background-color: var(--accent);
+} */
 
 .list-image {
   display: flex;
